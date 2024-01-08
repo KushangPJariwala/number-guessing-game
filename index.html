@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="header">
+      <h1>Guess number</h1>
+      <div class="note">Between 1 and 20</div>
+    </div>
+
+    <div class="outerMain">
+      <div class="container">
+        <div class="selected">
+          You selected : <span id="selected"> # </span>
+        </div>
+      </div>
+
+      <div class="main">
+        <div class="left">
+          <input type="number" value="1" name="inputNum" id="inputNum" />
+          <input type="button" value="Check" class="btn" />
+        </div>
+        <div class="right">
+          <h3>
+            Score :
+            <h4 id="score" name="score">20</h4>
+          </h3>
+        </div>
+      </div>
+      <div class="warning">start guessing...</div>
+      <input type="button" value="Restart" class="restart" />
+    </div>
+  </body>
+</html>
+<script src="index.js"></script>
